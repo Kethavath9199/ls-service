@@ -1,0 +1,22 @@
+{
+    "apps": [
+        {
+            "name": "linesight-app",
+            "script": "./dist/app.js",
+            "exec_mode": "cluster",
+            "instances": 1,
+            "env_linesight": {
+                "DB_HOST_SERVER": "",
+                "DB_USER_SERVER": "",
+                "DB_NAME_SERVER": "",
+                "DB_PASS_SERVER": "",
+                "KAFKA_CLIENT_ID": "Kafka-app",
+                "PORT": "3002",
+                "KAFKA_BROKERS": "",
+                "BASE_URL": "/linesight",
+                "GROUP_ID": "consumer-group",
+                "KEY": "585064b851255a61aed6ec2e54ad057a27a5060ec5c767e9d4230693463fde69"
+            }
+        }
+    ]
+}
